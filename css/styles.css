@@ -5,7 +5,18 @@
     font-family: 'Raleway', sans-serif;
     
 }
-
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  .menu {
+    display: none;
+  }
+}
 
 
 body {
